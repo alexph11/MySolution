@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.bluespurs.starterkit.controller.HelloWorldControllerUnitTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2016-06-02T19:38:10" hostname="Alexander-PC" time="0.698">
+  <properties/>
+  <testcase name="testHelloWorldHomePage" classname="com.bluespurs.starterkit.controller.HelloWorldControllerUnitTest" time="0.698"/>
+  <system-out><![CDATA[16:38:08.874 [Test worker] DEBUG o.s.t.c.j.SpringJUnit4ClassRunner - SpringJUnit4ClassRunner constructor called with [class com.bluespurs.starterkit.controller.HelloWorldControllerUnitTest]
+16:38:08.880 [Test worker] DEBUG o.s.test.context.BootstrapUtils - Instantiating CacheAwareContextLoaderDelegate from class [org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate]
+16:38:08.887 [Test worker] DEBUG o.s.test.context.BootstrapUtils - Instantiating BootstrapContext using constructor [public org.springframework.test.context.support.DefaultBootstrapContext(java.lang.Class,org.springframework.test.context.CacheAwareContextLoaderDelegate)]
+16:38:08.901 [Test worker] DEBUG o.s.test.context.BootstrapUtils - Instantiating TestContextBootstrapper for test class [com.bluespurs.starterkit.controller.HelloWorldControllerUnitTest] from class [org.springframework.test.context.web.WebTestContextBootstrapper]
+16:38:08.930 [Test worker] DEBUG o.s.t.c.w.WebTestContextBootstrapper - Found explicit ContextLoader class [org.springframework.boot.test.SpringApplicationContextLoader] for context configuration attributes [ContextConfigurationAttributes@49b4d804 declaringClass = 'com.bluespurs.starterkit.UnitTest', classes = '{class com.bluespurs.starterkit.UnitTestConfig}', locations = '{}', inheritLocations = true, initializers = '{}', inheritInitializers = true, name = [null], contextLoaderClass = 'org.springframework.boot.test.SpringApplicationContextLoader']
+16:38:08.939 [Test worker] DEBUG o.s.t.c.s.AbstractContextLoader - Did not detect default resource location for test class [com.bluespurs.starterkit.UnitTest]: class path resource [com/bluespurs/starterkit/UnitTest-context.xml] does not exist
+16:38:08.939 [Test worker] DEBUG o.s.t.c.s.AbstractContextLoader - Did not detect default resource location for test class [com.bluespurs.starterkit.UnitTest]: class path resource [com/bluespurs/starterkit/UnitTestContext.groovy] does not exist
+16:38:08.940 [Test worker] INFO  o.s.t.c.s.AbstractContextLoader - Could not detect default resource locations for test class [com.bluespurs.starterkit.UnitTest]: no resource found for suffixes {-context.xml, Context.groovy}.
+16:38:08.943 [Test worker] DEBUG o.s.t.c.support.ActiveProfilesUtils - Could not find an 'annotation declaring class' for annotation type [org.springframework.test.context.ActiveProfiles] and class [com.bluespurs.starterkit.controller.HelloWorldControllerUnitTest]
+16:38:08.948 [Test worker] DEBUG o.s.t.c.w.WebTestContextBootstrapper - @TestExecutionListeners is not present for class [com.bluespurs.starterkit.controller.HelloWorldControllerUnitTest]: using defaults.
+16:38:08.957 [Test worker] INFO  o.s.t.c.w.WebTestContextBootstrapper - Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener]
+16:38:08.994 [Test worker] INFO  o.s.t.c.w.WebTestContextBootstrapper - Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@4dd2e4f0, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@2b59518a, org.springframework.test.context.support.DependencyInjectionTestExecutionListener@63f4a6b3, org.springframework.test.context.support.DirtiesContextTestExecutionListener@2f7d3888, org.springframework.test.context.transaction.TransactionalTestExecutionListener@75d2acf3, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@14e676c2]
+16:38:08.999 [Test worker] DEBUG o.s.t.annotation.ProfileValueUtils - Retrieved @ProfileValueSourceConfiguration [null] for test class [com.bluespurs.starterkit.controller.HelloWorldControllerUnitTest]
+16:38:09.000 [Test worker] DEBUG o.s.t.annotation.ProfileValueUtils - Retrieved ProfileValueSource type [class org.springframework.test.annotation.SystemProfileValueSource] for class [com.bluespurs.starterkit.controller.HelloWorldControllerUnitTest]
+16:38:09.017 [Test worker] DEBUG o.s.t.annotation.ProfileValueUtils - Retrieved @ProfileValueSourceConfiguration [null] for test class [com.bluespurs.starterkit.controller.HelloWorldControllerUnitTest]
+16:38:09.017 [Test worker] DEBUG o.s.t.annotation.ProfileValueUtils - Retrieved ProfileValueSource type [class org.springframework.test.annotation.SystemProfileValueSource] for class [com.bluespurs.starterkit.controller.HelloWorldControllerUnitTest]
+16:38:09.022 [Test worker] DEBUG o.s.t.c.s.AbstractDirtiesContextTestExecutionListener - Before test class: context [DefaultTestContext@2d7b2e3 testClass = HelloWorldControllerUnitTest, testInstance = [null], testMethod = [null], testException = [null], mergedContextConfiguration = [WebMergedContextConfiguration@53a8a4f0 testClass = HelloWorldControllerUnitTest, locations = '{}', classes = '{class com.bluespurs.starterkit.UnitTestConfig}', contextInitializerClasses = '[]', activeProfiles = '{}', propertySourceLocations = '{}', propertySourceProperties = '{}', resourceBasePath = 'src/main/webapp', contextLoader = 'org.springframework.boot.test.SpringApplicationContextLoader', parent = [null]]], class annotated with @DirtiesContext [false] with mode [null].
+16:38:09.023 [Test worker] DEBUG o.s.t.annotation.ProfileValueUtils - Retrieved @ProfileValueSourceConfiguration [null] for test class [com.bluespurs.starterkit.controller.HelloWorldControllerUnitTest]
+16:38:09.023 [Test worker] DEBUG o.s.t.annotation.ProfileValueUtils - Retrieved ProfileValueSource type [class org.springframework.test.annotation.SystemProfileValueSource] for class [com.bluespurs.starterkit.controller.HelloWorldControllerUnitTest]
+16:38:09.123 [Test worker] DEBUG o.s.core.env.StandardEnvironment - Adding [systemProperties] PropertySource with lowest search precedence
+16:38:09.125 [Test worker] DEBUG o.s.core.env.StandardEnvironment - Adding [systemEnvironment] PropertySource with lowest search precedence
+16:38:09.126 [Test worker] DEBUG o.s.core.env.StandardEnvironment - Initialized StandardEnvironment with PropertySources [systemProperties,systemEnvironment]
+16:38:09.128 [Test worker] DEBUG o.s.core.env.StandardEnvironment - Adding [integrationTest] PropertySource with search precedence immediately lower than [systemEnvironment]
+  ____  _             _____                         _____ _             _              _  ___ _   
+ |  _ \| |           / ____|                       / ____| |           | |            | |/ (_) |  
+ | |_) | |_   _  ___| (___  _ __  _   _ _ __ ___  | (___ | |_ __ _ _ __| |_ ___ _ __  | ' / _| |_ 
+ |  _ <| | | | |/ _ \\___ \| '_ \| | | | '__/ __|  \___ \| __/ _` | '__| __/ _ \ '__| |  < | | __|
+ | |_) | | |_| |  __/____) | |_) | |_| | |  \__ \  ____) | || (_| | |  | ||  __/ |    | . \| | |_ 
+ |____/|_|\__,_|\___|_____/| .__/ \__,_|_|  |___/ |_____/ \__\__,_|_|   \__\___|_|    |_|\_\_|\__|
+                           | |                                                                    
+                           |_|  Powered by Spring Boot (v1.3.2.RELEASE)
+
+2016-06-02 16:38:10.665  INFO 192 --- [    Test worker] c.b.s.c.HelloWorldControllerUnitTest     : Starting HelloWorldControllerUnitTest on Alexander-PC with PID 192 (C:\MySolution\Solution\bluespurs-take-home-starter-kit-3dbc193617fa\build\classes\test started by Alexander in C:\MySolution\Solution\bluespurs-take-home-starter-kit-3dbc193617fa)
+2016-06-02 16:38:10.668  INFO 192 --- [    Test worker] c.b.s.c.HelloWorldControllerUnitTest     : No active profile set, falling back to default profiles: default
+2016-06-02 16:38:10.669 DEBUG 192 --- [    Test worker] o.s.boot.SpringApplication               : Loading source class com.bluespurs.starterkit.UnitTestConfig
+2016-06-02 16:38:10.740 DEBUG 192 --- [    Test worker] o.s.b.c.c.ConfigFileApplicationListener  : Loaded config file 'classpath:/application.properties'
+2016-06-02 16:38:10.741 DEBUG 192 --- [    Test worker] o.s.b.c.c.ConfigFileApplicationListener  : Skipped (empty) config file 'classpath:/application.properties' for profile default
+2016-06-02 16:38:10.748  INFO 192 --- [    Test worker] o.s.w.c.s.GenericWebApplicationContext   : Refreshing org.springframework.web.context.support.GenericWebApplicationContext@4692640: startup date [Thu Jun 02 16:38:10 ADT 2016]; root of context hierarchy
+2016-06-02 16:38:10.881 DEBUG 192 --- [    Test worker] o.s.boot.devtools.restart.Restarter      : Creating new Restarter for thread Thread[Test worker,5,main]
+2016-06-02 16:38:10.883  INFO 192 --- [    Test worker] c.b.s.c.HelloWorldControllerUnitTest     : Started HelloWorldControllerUnitTest in 1.718 seconds (JVM running for 3.411)
+2016-06-02 16:38:11.334  INFO 192 --- [    Test worker] ilder$StaticRequestMappingHandlerMapping : Mapped "{[/]}" onto public java.lang.String com.bluespurs.starterkit.controller.HelloWorldController.helloWorld()
+2016-06-02 16:38:11.453  INFO 192 --- [    Test worker] s.w.s.m.m.a.RequestMappingHandlerAdapter : Looking for @ControllerAdvice: org.springframework.test.web.servlet.setup.StubWebApplicationContext@78f4dfbe
+2016-06-02 16:38:11.527  INFO 192 --- [    Test worker] o.s.mock.web.MockServletContext          : Initializing Spring FrameworkServlet ''
+2016-06-02 16:38:11.527  INFO 192 --- [    Test worker] o.s.t.web.servlet.TestDispatcherServlet  : FrameworkServlet '': initialization started
+2016-06-02 16:38:11.530  INFO 192 --- [    Test worker] o.s.t.web.servlet.TestDispatcherServlet  : FrameworkServlet '': initialization completed in 2 ms
+2016-06-02 16:38:11.585  INFO 192 --- [    Test worker] c.b.s.controller.HelloWorldController    : Visiting index page
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
